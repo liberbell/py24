@@ -5,3 +5,5 @@ print(work_book.sheetnames)
 
 sheet_obj = work_book["Revenue"]
 print(sheet_obj.title)
+print(sheet_obj["A1"])
+print(sheet_obj["A1"].value)
