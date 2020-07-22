@@ -10,3 +10,6 @@ print(sheet_obj["A1"].value)
 
 cell = sheet_obj["B1"]
 print(type(cell))
+print(dir(cell))
+
+print(cell.row)
