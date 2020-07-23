@@ -47,3 +47,6 @@ for rows in sheet_obj["A1":"C2"]:
 
 for row in sheet_obj.iter_rows(min_row=1, max_row=2, min_col=1, max_col=3):
     print(row)
+
+for value in sheet_obj.iter_rows(min_row=1, max_row=2, min_col=1, max_col=3, values_only=True):
+    print(value)
