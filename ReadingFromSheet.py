@@ -23,3 +23,4 @@ print(cell.value)
 
 print(sheet_obj["A2"].value + ", based in " + sheet_obj["B2"].value + " has a revenue of $" + str (sheet_obj["C2"].value) + " billion.")
 print(sheet_obj.cell(row=1, column=2))
+print(sheet_obj.cell(row=1, column=2).value)
