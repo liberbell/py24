@@ -37,3 +37,5 @@ max_row = sheet_obj.max_row
 for i in range(1, max_row + 1):
     cell_obj = sheet_obj.cell(row=i, column=1)
     print(cell_obj.value)
+
+print(sheet_obj["A1":"C2"])
