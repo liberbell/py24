@@ -17,3 +17,4 @@ print(cell.column)
 
 print(cell.number_format)
 print(cell.coordinate)
+print(cell.data_type)
