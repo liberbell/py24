@@ -27,3 +27,8 @@ print(sheet_obj.cell(row=1, column=2).value)
 
 print(sheet_obj.max_row)
 print(sheet_obj.max_column)
+
+max_col = sheet_obj.max_column
+for i in range(1, max_col + 1):
+    cell_obj = sheet_obj.cell(row=1, column=i)
+    print(cell_obj.value)
