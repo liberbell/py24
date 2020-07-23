@@ -43,3 +43,4 @@ print(sheet_obj["A1":"C2"])
 for rows in sheet_obj["A1":"C2"]:
     for cell in rows:
         print(cell.coordinate, cell.value)
+    print("---------------")
