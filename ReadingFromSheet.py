@@ -13,3 +13,4 @@ print(type(cell))
 print(dir(cell))
 
 print(cell.row)
+print(cell.column)
