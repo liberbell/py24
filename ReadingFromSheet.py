@@ -14,3 +14,6 @@ print(dir(cell))
 
 print(cell.row)
 print(cell.column)
+
+print(cell.number_format)
+print(cell.coordinate)
