@@ -39,3 +39,6 @@ for i in range(1, max_row + 1):
     print(cell_obj.value)
 
 print(sheet_obj["A1":"C2"])
+
+for rows in sheet_obj["A1":"C2"]:
+    for cell in rows:
