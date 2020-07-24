@@ -1,6 +1,7 @@
 import openpyxl
 import json
 
+
 work_book = openpyxl.load_workbook("company_revenue.xlsx")
 print(work_book.sheetnames)
 
@@ -59,7 +60,7 @@ revenues = {}
 
 for row in sheet_obj.iter_rows(min_row=2, max_row=4, min_col=1, max_col=3, values_only=True):
     rep = row[0]
-    rev_detail = {
+    rev_details = {
         "Country": row[1],
         "Revenue": row[2],
     }
