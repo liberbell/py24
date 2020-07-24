@@ -63,3 +63,5 @@ for row in sheet_obj.iter_rows(min_row=2, max_row=4, min_col=1, max_col=3, value
         "Country": row[1],
         "Revenue": row[2],
     }
+
+    revenues[rep] = rev_details
