@@ -58,3 +58,8 @@ for column in sheet_obj.iter_cols(min_row=1, max_row=3, min_col=1, max_col=3, va
 revenues = {}
 
 for row in sheet_obj.iter_rows(min_row=2, max_row=4, min_col=1, max_col=3, values_only=True):
+    rep = row[0]
+    rev_detail = {
+        "Country": row[1],
+        "Revenue": row[2],
+    }
