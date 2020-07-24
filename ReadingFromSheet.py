@@ -66,3 +66,5 @@ for row in sheet_obj.iter_rows(min_row=2, max_row=4, min_col=1, max_col=3, value
     }
 
     revenues[rep] = rev_details
+
+print(json.dumps(revenues, indent=4, sort_keys=True))
