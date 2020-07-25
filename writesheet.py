@@ -29,4 +29,8 @@ print(sheet.calculate_dimension())
 sheet.append(["One", "row", "of", "text"])
 print(sheet.calculate_dimension())
 
-work_book.save("brand_new_workbook.xlsx")
+# work_book.save("brand_new_workbook.xlsx")
+
+sheet.insert_rows(idx=2, amount=3)
+sheet.insert_cols(idx=3)
+print(sheet.calculate_dimension())
