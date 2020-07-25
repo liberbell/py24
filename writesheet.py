@@ -7,3 +7,5 @@ sheet = work_book["Sheet"]
 sheet["A1"] = "Hello"
 sheet["B1"] = "Excel"
 sheet["C1"] = "Users!"
+
+print(sheet["A1"].value)
