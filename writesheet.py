@@ -27,3 +27,4 @@ print(sheet["C1"].value)
 print(sheet.calculate_dimension())
 
 sheet.append(["One", "row", "of", "text"])
+print(sheet.calculate_dimension())
