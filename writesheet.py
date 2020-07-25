@@ -25,3 +25,5 @@ print(sheet["C1"].value)
 # work_book.save("brand_new_workbook.xlsx")
 
 print(sheet.calculate_dimension())
+
+sheet.append(["One", "row", "of", "text"])
