@@ -35,4 +35,7 @@ sheet.insert_rows(idx=2, amount=3)
 sheet.insert_cols(idx=3)
 print(sheet.calculate_dimension())
 
-work_book.save("brand_new_workbook.xlsx")
+# work_book.save("brand_new_workbook.xlsx")
+
+sheet.delete_rows(idx=2, amount=3)
+sheet.delete_cols(3)
