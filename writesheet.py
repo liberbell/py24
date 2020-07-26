@@ -54,3 +54,6 @@ planet_wb = openpyxl.Workbook()
 planet_sheet = planet_wb["Sheet"]
 
 planet_sheet.title = "Planets"
+
+for row in data:
+    planet_sheet.append(row)
