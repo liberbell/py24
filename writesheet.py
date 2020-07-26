@@ -59,4 +59,4 @@ for row in data:
     planet_sheet.append(row)
 
 print(planet_sheet.calculate_dimension())
-planet_wb.save("planets.xlsx")
+# planet_wb.save("planets.xlsx")
