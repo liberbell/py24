@@ -43,4 +43,9 @@ print(sheet.calculate_dimension())
 # work_book.save("brand_new_workbook.xlsx")
 
 sheet.title = "FirstSheet"
-work_book.save("brand_new_workbook.xlsx")
+# work_book.save("brand_new_workbook.xlsx")
+
+data = [["Planet", "Radius(km)", "Distance from the Sun (M km)"],
+        ["Earth", 6371, 150],
+        ["Mars", 2289, 228],
+        ["Mercury", 2440, 58]]
