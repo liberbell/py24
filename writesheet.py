@@ -57,3 +57,5 @@ planet_sheet.title = "Planets"
 
 for row in data:
     planet_sheet.append(row)
+
+print(sheet.calculate_dimension())
