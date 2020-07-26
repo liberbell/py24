@@ -58,4 +58,5 @@ planet_sheet.title = "Planets"
 for row in data:
     planet_sheet.append(row)
 
-print(sheet.calculate_dimension())
+print(planet_sheet.calculate_dimension())
+planet_wb.save("planets.xlsx")
