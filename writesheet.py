@@ -49,3 +49,8 @@ data = [["Planet", "Radius(km)", "Distance from the Sun (M km)"],
         ["Earth", 6371, 150],
         ["Mars", 2289, 228],
         ["Mercury", 2440, 58]]
+
+planet_wb = openpyxl.Workbook()
+planet_sheet = planet_wb["Sheet"]
+
+planet_sheet.title = "Planets"
