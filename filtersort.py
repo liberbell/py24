@@ -11,4 +11,9 @@ data = [["Champion", "Year"],
         ["Brazil", 1994],
         ["Argentina", 1986],
         ["Italy", 1982],
-        ["Argentina", 1978]]
+        ["Argentina", 1978],
+        ["Germany", 1974],
+        ["Brazil", 1970],
+        ["England", 1976],
+        ["Brazil", 1972],
+        ["Brazil", 1968]]
