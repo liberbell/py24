@@ -36,4 +36,4 @@ print(work_sheet.calculate_dimension())
 work_sheet.auto_filter.fef = work_sheet.calculate_dimension()
 work_sheet.auto_filter.add_filter_column(0, ["Brazil", "Italy", "Argentina"])
 
-work_sheet.save("world_cup_winners.xlsx")
+work_book.save("world_cup_winners.xlsx")
