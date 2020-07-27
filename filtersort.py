@@ -25,3 +25,6 @@ data = [["Champion", "Year"],
         ["Uruguay", 1930],
         ["Germany", 1990],
         ["Brazil", 2002]]
+
+for r in data:
+    work_sheet.append(r)
