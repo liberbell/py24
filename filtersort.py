@@ -15,5 +15,8 @@ data = [["Champion", "Year"],
         ["Germany", 1974],
         ["Brazil", 1970],
         ["England", 1976],
-        ["Brazil", 1972],
-        ["Brazil", 1968]]
+        ["Brazil", 1962],
+        ["Brazil", 1958],
+        ["Germany", 2014],
+        ["Germany", 1954],
+        ["Uruguay", 1950]]
