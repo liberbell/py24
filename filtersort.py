@@ -29,4 +29,6 @@ data = [["Champion", "Year"],
 for r in data:
     work_sheet.append(r)
 
-work_book.save("world_cup_winners.xlsx")
+# work_book.save("world_cup_winners.xlsx")
+
+print(work_sheet.calculate_dimension())
