@@ -40,4 +40,5 @@ work_sheet.auto_filter.add_filter_column(0, ["Brazil", "Italy", "Argentina"])
 
 print(work_sheet["B"][1], work_sheet["B"][1])
 
-range_str = work_sheet["B"][1].cordinate + ":" + work_sheet["B"][-1].cordinate
+range_str = work_sheet["B"][1].coordinate + ":" + work_sheet["B"][-1].coordinate
+print(range_str)
