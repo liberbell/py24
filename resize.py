@@ -11,3 +11,6 @@ sheet_obj["C1"] = "A high row"
 sheet_obj["D4"] = "A wide column"
 
 sheet_obj.row_dimensions[1].height = 70
+sheet_obj.column_dimensions["D"].width = 60
+
+work_book.save("dimensions.xlsx")
