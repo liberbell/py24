@@ -42,3 +42,6 @@ print(work_sheet["B"][1], work_sheet["B"][1])
 
 range_str = work_sheet["B"][1].coordinate + ":" + work_sheet["B"][-1].coordinate
 print(range_str)
+
+work_sheet.auto_filter.add_sort_condition(range_str, descending=True)
+work_book.save("world_cup_winners.xlsx")
