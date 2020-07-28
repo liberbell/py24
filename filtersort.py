@@ -39,3 +39,5 @@ work_sheet.auto_filter.add_filter_column(0, ["Brazil", "Italy", "Argentina"])
 # work_book.save("world_cup_winners.xlsx")
 
 print(work_sheet["B"][1], work_sheet["B"][1])
+
+range_str = work_sheet["B"][1].cordinate + ":" + work_sheet["B"][-1].cordinate
