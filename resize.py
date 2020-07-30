@@ -23,3 +23,4 @@ print(new_sheet)
 # work_book.save("dimensions.xlsx")
 
 new_sheet.merge_cells("A1:D3")
+work_book.save("dimensions.xlsx")
