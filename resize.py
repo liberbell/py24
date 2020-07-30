@@ -25,4 +25,5 @@ print(new_sheet)
 new_sheet.merge_cells("A1:D3")
 # work_book.save("dimensions.xlsx")
 
-new_sheet["C2"] = "Data in a merge cell"
+# new_sheet["C2"] = "Data in a merge cell"
+new_sheet["A1"] = "Data in a merge cell"
