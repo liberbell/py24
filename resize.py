@@ -20,4 +20,6 @@ print(work_book.create_sheet(title="BrandNewSheet", index=0))
 new_sheet = work_book.active
 print(new_sheet)
 
-work_book.save("dimensions.xlsx")
+# work_book.save("dimensions.xlsx")
+
+new_sheet.merge_cells("A1:D3")
