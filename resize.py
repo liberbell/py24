@@ -14,3 +14,5 @@ sheet_obj.row_dimensions[1].height = 70
 sheet_obj.column_dimensions["D"].width = 60
 
 work_book.save("dimensions.xlsx")
+
+work_book.create_sheet(title="BrandNewSheet", index=0)
