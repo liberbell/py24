@@ -16,3 +16,5 @@ sheet_obj.column_dimensions["D"].width = 60
 # work_book.save("dimensions.xlsx")
 
 print(work_book.create_sheet(title="BrandNewSheet", index=0))
+
+new_sheet = work_book.active
