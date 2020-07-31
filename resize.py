@@ -31,4 +31,6 @@ new_sheet["A1"] = "Data in a merge cell"
 # work_book.save("dimensions.xlsx")
 
 new_sheet["A1"].alignment = Alignment(horizontal="center")
-work_book.save("dimensions.xlsx")
+# work_book.save("dimensions.xlsx")
+
+new_sheet["A1"].alignment = Alignment=(vertical="center")
