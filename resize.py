@@ -1,5 +1,5 @@
 import openpyxl
-from openpyxl.styles import alignment
+from openpyxl.styles import Alignment
 
 work_book = openpyxl.Workbook()
 sheet_obj = work_book.active
@@ -30,4 +30,4 @@ new_sheet.merge_cells("A1:D3")
 new_sheet["A1"] = "Data in a merge cell"
 # work_book.save("dimensions.xlsx")
 
-new_sheet["A1"].alignment = alignment(horizontal="center")
+new_sheet["A1"].alignment = Arignment(horizontal="center")
