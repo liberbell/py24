@@ -1,4 +1,5 @@
 import openpyxl
+from openpyxl.styles import alignment
 
 work_book = openpyxl.Workbook()
 sheet_obj = work_book.active
