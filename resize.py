@@ -37,3 +37,4 @@ new_sheet["A1"].alignment = Alignment(vertical="center")
 # work_book.save("dimensions.xlsx")
 
 new_sheet["A1"].alignment = Alignment(horizontal="right", vertical="top")
+work_book.save("dimensions.xlsx")
