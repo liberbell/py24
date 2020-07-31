@@ -28,4 +28,6 @@ new_sheet.merge_cells("A1:D3")
 
 # new_sheet["C2"] = "Data in a merge cell"
 new_sheet["A1"] = "Data in a merge cell"
-work_book.save("dimensions.xlsx")
+# work_book.save("dimensions.xlsx")
+
+new_sheet["A1"].alignment = alignment(horizontal="center")
