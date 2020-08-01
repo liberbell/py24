@@ -37,4 +37,7 @@ new_sheet["A1"].alignment = Alignment(vertical="center")
 # work_book.save("dimensions.xlsx")
 
 new_sheet["A1"].alignment = Alignment(horizontal="right", vertical="top")
-work_book.save("dimensions.xlsx")
+# work_book.save("dimensions.xlsx")
+
+new_sheet.merge_cells("B5:G5")
+new_sheet["B5"] = "We just merged cells in the sama row."
