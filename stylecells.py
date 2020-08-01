@@ -5,3 +5,7 @@ work_book = openpyxl.load_workbook("student_data.xlsx")
 print(work_book.sheetnames)
 
 sheet = work_book["Sheet"]
+bold_font = Font(bold=True)
+big_red_text = Font(color=colors.RED, size=20)
+
+center_aligned_text = Alignment(horizontal="center")
