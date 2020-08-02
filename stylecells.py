@@ -35,3 +35,5 @@ custom_style.alignment = Alignment(horizontal="center", vertical="center")
 header_row = sheet[1]
 for cell in header_row:
     cell.style = custom_style
+
+work_book.save(filename="styled.xlsx")
