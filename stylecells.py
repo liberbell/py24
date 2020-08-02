@@ -27,3 +27,4 @@ sheet["B7"].border = square_border
 # work_book.save(filename="styled.xlsx")
 
 custom_style = NamedStyle(name="header")
+custom_style.font = Font(bold=True)
