@@ -28,3 +28,6 @@ sheet["B7"].border = square_border
 
 custom_style = NamedStyle(name="header")
 custom_style.font = Font(bold=True)
+
+custom_style.border = Border(bottom=Side(border_style="thin"))
+custom_style.alignment = Alignment(horizontal="center", vertical="center")
