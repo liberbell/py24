@@ -41,3 +41,6 @@ for cell in header_row:
 
 one_more_style = NamedStyle(name="highlight")
 one_more_style.fill = PatternFill(fgColor=colors.Color("d7abcc"), patternType="lightHorizontal")
+
+for cell in sheet["A"]:
+    cell.style = one_more_style
