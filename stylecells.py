@@ -17,3 +17,5 @@ sheet["B2"].font = bold_font
 sheet["B3"].font = big_red_text
 sheet["C4"].alignment = center_aligned_text
 sheet["C5"].border = square_border
+
+work_book.save(filename="styled.xlsx")
