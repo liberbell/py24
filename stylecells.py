@@ -10,3 +10,5 @@ big_red_text = Font(color="FFFF0000", size=20)
 
 center_aligned_text = Alignment(horizontal="center")
 doubule_border_side = Side(border_style="double")
+
+square_border = Border(top=double_border_side, right=doubule_border_side, bottom=doubule_border_side, left=doubule_border_side)
