@@ -9,3 +9,4 @@ bold_font = Font(bold=True)
 big_red_text = Font(color="FFFF0000", size=20)
 
 center_aligned_text = Alignment(horizontal="center")
+doubule_border_side = Side(border_style="double")
