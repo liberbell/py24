@@ -12,3 +12,8 @@ center_aligned_text = Alignment(horizontal="center")
 doubule_border_side = Side(border_style="double")
 
 square_border = Border(top=doubule_border_side, right=doubule_border_side, bottom=doubule_border_side, left=doubule_border_side)
+
+sheet["B2"].font = bold_font
+sheet["B3"].font = big_red_text
+sheet["C4"].alignment = center_aligned_text
+sheet["C5"].border = square_border
