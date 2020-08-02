@@ -44,3 +44,5 @@ one_more_style.fill = PatternFill(fgColor=colors.Color("d7abcc"), patternType="l
 
 for cell in sheet["A"]:
     cell.style = one_more_style
+
+work_book.save(filename="styled.xlsx")
