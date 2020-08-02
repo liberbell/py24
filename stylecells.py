@@ -37,4 +37,7 @@ header_row = sheet[1]
 for cell in header_row:
     cell.style = custom_style
 
-work_book.save(filename="styled.xlsx")
+# work_book.save(filename="styled.xlsx")
+
+one_more_style = NamedStyle(name="highlight")
+one_more_style.fill = PatternFill(fgColor=colors.Color("d7abcc"), patternType="lightHorizontal")
