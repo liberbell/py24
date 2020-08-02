@@ -31,3 +31,7 @@ custom_style.font = Font(bold=True)
 
 custom_style.border = Border(bottom=Side(border_style="thin"))
 custom_style.alignment = Alignment(horizontal="center", vertical="center")
+
+header_row = sheet[1]
+for cell in header_row:
+    cell.style = custom_style
