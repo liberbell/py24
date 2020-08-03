@@ -14,3 +14,5 @@ for row in sheet["L2:N101"]:
         cell.number_format = "#,##0"
 
 # work_book.save("sales_basic_conditional.xlsx")
+
+yellow_background = PatternFill(bgColor="#FFFE3B")
