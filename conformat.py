@@ -1,4 +1,7 @@
 import openpyxl
+from openpyxl.styles import PatternFill, colors
+from openpyxl.styles.differential import DifferentialStyle
+from openpyxl.formatting.rule import Rule
 
 work_book = openpyxl.load_workbook("sales_record.xlsx")
 sheet = work_book.active
