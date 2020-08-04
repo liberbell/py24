@@ -2,6 +2,7 @@ import openpyxl
 from openpyxl.styles import PatternFill, colors
 from openpyxl.styles.differential import DifferentialStyle
 from openpyxl.formatting import Rule
+from openpyxl.formatting.rule import ColorScaleRule
 
 work_book = openpyxl.load_workbook("sales_record.xlsx")
 sheet = work_book.active
@@ -27,4 +28,4 @@ rule.formula = ["$M1<70000"]
 print(sheet.calculate_dimension())
 
 sheet.conditional_formatting.add(sheet.calculate_dimension(), rule)
-work_book.save("sales_basic_conditional.xlsx")
+# work_book.save("sales_basic_conditional.xlsx")
