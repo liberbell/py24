@@ -19,7 +19,7 @@ yellow_background = PatternFill(bgColor="00FFFF00")
 diff_style = DifferentialStyle(fill = yellow_background)
 
 rule = Rule(type="expression", dxf=diff_style)
-
+rule.formula = ["$M1<70000"]
 
 # rule1 = Rule(type="expression", dxf=diff_style)
 # rule.formula = ["$M1<70000"]
