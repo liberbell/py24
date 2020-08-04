@@ -25,3 +25,6 @@ rule.formula = ["$M1<70000"]
 # rule.formula = ["$M1<70000"]
 
 print(sheet.calculate_dimension())
+
+sheet.conditional_formatting.add(sheet.calculate_dimension(), rule)
+work_book.save("sales_basic_conditional.xlsx")
