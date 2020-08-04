@@ -16,3 +16,4 @@ for row in sheet["L2:N101"]:
 # work_book.save("sales_basic_conditional.xlsx")
 
 yellow_background = PatternFill(bgColor="00FFFF00")
+diff_style = DifferentialStyle(fill = yellow_background)
