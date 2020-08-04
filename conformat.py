@@ -23,3 +23,5 @@ rule.formula = ["$M1<70000"]
 
 # rule1 = Rule(type="expression", dxf=diff_style)
 # rule.formula = ["$M1<70000"]
+
+print(sheet.calculate_dimension())
