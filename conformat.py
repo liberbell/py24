@@ -4,9 +4,6 @@ from openpyxl.styles.differential import DifferentialStyle
 from openpyxl.formatting import Rule
 from openpyxl.formatting.rule import ColorScaleRule
 
-work_book = openpyxl.load_workbook("sales_record.xlsx")
-sheet = work_book.active
-
 print(sheet.max_row)
 print(sheet.max_column)
 
@@ -47,4 +44,5 @@ color_scale_rule = ColorScaleRule(start_type="percentile", start_value=0, start_
                                   end_type="percentile", end_value=90, end_color="81DC3B")
 
 sheet.conditional_formatting.add("M2:N101", color_scale_rule)
-work_book.save("sales_profit_colorscale.xlsx")
+# work_book.save("sales_profit_colorscale.xlsx")
+
