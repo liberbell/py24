@@ -45,3 +45,6 @@ sheet.conditional_formatting.add("M2:N101", color_scale_rule)
 color_scale_rule = ColorScaleRule(start_type="percentile", start_value=0, start_color="F2B5EC",
                                   mid_type="percentile", mid_value=50, mid_color="FFFF66",
                                   end_type="percentile", end_value=90, end_color="81DC3B")
+
+sheet.conditional_formatting.add("M2:N101", color_scale_rule)
+work_book.save("sales_profit_colorscale.xlsx")
