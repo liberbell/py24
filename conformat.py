@@ -38,3 +38,5 @@ sheet = work_book.active
 for row in sheet["K2:N101"]:
     for cell in row:
         cell.number_format = "#,##0"
+
+sheet.conditional_formatting.add("M2:N101", color_scale_rule)
