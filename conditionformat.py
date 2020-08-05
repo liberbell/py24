@@ -1,0 +1,1 @@
+from openpyxl.formatting.rule import IconSetRule
