@@ -40,3 +40,4 @@ for row in sheet["K2:N101"]:
         cell.number_format = "#,##0"
 
 sheet.conditional_formatting.add("M2:N101", color_scale_rule)
+work_book.save("sales_profit_colorscale.xlsx")
