@@ -31,3 +31,10 @@ sheet.conditional_formatting.add(sheet.calculate_dimension(), rule)
 # work_book.save("sales_basic_conditional.xlsx")
 
 color_scale_rule = ColorScaleRule(start_type="min", start_color="00FFFF00", end_type="max", end_color="00ff0000")
+
+work_book = openpyxl.load_workbook("sales_record.xlsx")
+sheet = work_book.active
+
+for row in sheet["K2:N101"]:
+    for cell in row:
+        cell.number_format = "#.##0"
