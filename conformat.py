@@ -29,3 +29,5 @@ print(sheet.calculate_dimension())
 
 sheet.conditional_formatting.add(sheet.calculate_dimension(), rule)
 # work_book.save("sales_basic_conditional.xlsx")
+
+color_scale_rule = ColorScaleRule(start_type="min", start_color="00FFFF00", end_type="max", end_color="#ff0000")
