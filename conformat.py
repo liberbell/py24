@@ -37,4 +37,4 @@ sheet = work_book.active
 
 for row in sheet["K2:N101"]:
     for cell in row:
-        cell.number_format = "#.##0"
+        cell.number_format = "#,##0"
