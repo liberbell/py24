@@ -18,4 +18,4 @@ sheet = work_book.active
 data_bar_rule = DataBarRule(start_type="num", start_value=1, end_type="num", end_value="4", color="ff0000")
 
 sheet.conditional_formatting.add("Q2:Q9558", data_bar_rule)
-work_book.save("zomato_iconset.xlsx")
+work_book.save("zomato_databar.xlsx")
