@@ -10,3 +10,7 @@ work_sheet.add_image(img, "C11")
 # Work_book.save("images.xlsx")
 
 print(img.width, img.height)
+
+large_img = Image("small-image.jpg")
+large_img.width = 600
+large_img.height = 400
