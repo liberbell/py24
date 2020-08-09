@@ -14,3 +14,5 @@ sheet["A5"] = 6
 
 sheet["C2"] = "SUM:"
 sheet["D2"] = "=SUM(A1:A5)"
+
+work_book.save("formurae.xlsx")
