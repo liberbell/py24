@@ -20,3 +20,10 @@ sheet["D2"] = "=SUM(A1:A5)"
 sheet["C3"] = "PRODUCT:"
 sheet["D3"] = "=PRODUCT(A1:A5)"
 # work_book.save("formurae.xlsx")
+
+sheet["C4"] = "COUNT:"
+sheet["D4"] = "=COUNT(A1:A9)"
+
+sheet["C5"] = "MEAN:"
+sheet["D5"] = "=AVERAGE(A1:A5)"
+work_book.save("formurae.xlsx")
