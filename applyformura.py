@@ -15,4 +15,7 @@ sheet["A5"] = 6
 sheet["C2"] = "SUM:"
 sheet["D2"] = "=SUM(A1:A5)"
 
-work_book.save("formurae.xlsx")
+# work_book.save("formurae.xlsx")
+
+sheet["C3"] = "PRODUCT:"
+sheet["D3"] = "=PRODUCT(A1:A5)"
