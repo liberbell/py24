@@ -5,3 +5,9 @@ print(FORMULAE)
 
 work_book = openpyxl.Workbook()
 sheet = work_book.active
+
+sheet["A1"] = 21
+sheet["A2"] = 11
+sheet["A3"] = 7
+sheet["A4"] = 9
+sheet["A5"] = 6
