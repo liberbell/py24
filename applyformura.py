@@ -26,4 +26,4 @@ sheet["D4"] = "=COUNT(A1:A9)"
 
 sheet["C5"] = "MEAN:"
 sheet["D5"] = "=AVERAGE(A1:A5)"
-work_book.save("formurae.xlsx")
+# work_book.save("formurae.xlsx")
