@@ -40,3 +40,8 @@ work_book.create_sheet("CakeSales", index=0)
 cake_sales_sheet = work_book["Cakesales"]
 
 cake_sales_sheet.append(header)
+
+for row in data:
+    cake_sales_sheet.append(row)
+
+work_book.save("formurae.xlsx")
