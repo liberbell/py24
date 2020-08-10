@@ -36,7 +36,8 @@ data = [["Chocolate", 18, 5],
         ["Carrot", 8, 4],
         ["Red Velvet", 9, 4.5]]
 
-work_book.create_sheet("CakeSales", index=0)
+print(work_book.create_sheet("CakeSales", index=0))
+
 cake_sales_sheet = work_book["CakeSales"]
 
 cake_sales_sheet.append(header)
