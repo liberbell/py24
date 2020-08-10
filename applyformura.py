@@ -27,3 +27,11 @@ sheet["D4"] = "=COUNT(A1:A9)"
 sheet["C5"] = "MEAN:"
 sheet["D5"] = "=AVERAGE(A1:A5)"
 # work_book.save("formurae.xlsx")
+
+header = ["Cake", "Quantity", "Price", "Revenue"]
+
+data = [["Chocolate", 18, 5],
+        ["Cheesecake", 13, 4.5],
+        ["Tres Leches", 16, 5.5],
+        ["Carrot", 8, 4],
+        ]
