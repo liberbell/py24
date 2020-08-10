@@ -1,7 +1,7 @@
 from openpyxl.utils import FORMULAE
 import openpyxl
 
-print(FORMULAE)
+# print(FORMULAE)
 
 work_book = openpyxl.Workbook()
 sheet = work_book.active
@@ -36,7 +36,7 @@ data = [["Chocolate", 18, 5],
         ["Carrot", 8, 4],
         ["Red Velvet", 9, 4.5]]
 
-# work_book.create_sheet("CakeSales", index=0)
+work_book.create_sheet("CakeSales", index=0)
 cake_sales_sheet = work_book["CakeSales"]
 
 cake_sales_sheet.append(header)
