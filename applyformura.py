@@ -63,3 +63,5 @@ cake_sales_sheet["D" + total_row_str] = "=SUM(D2:D" + max_row_str + ")"
 for row in cake_sales_sheet["C2:D" + max_row_str]:
     for cell in row:
         cell.number_format = "$#,##0.00"
+
+cake_sales_sheet["D" + total_row_str].number_format = "$#,##0.00"
