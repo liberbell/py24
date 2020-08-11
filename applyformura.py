@@ -65,3 +65,4 @@ for row in cake_sales_sheet["C2:D" + max_row_str]:
         cell.number_format = "$#,##0.00"
 
 cake_sales_sheet["D" + total_row_str].number_format = "$#,##0.00"
+work_book.save("formurae.xlsx")
