@@ -58,4 +58,8 @@ total_row_str = str(cake_sales_sheet.max_row + 2)
 cake_sales_sheet["C" + total_row_str] = "Total Sales:"
 cake_sales_sheet["D" + total_row_str] = "=SUM(D2:D" + max_row_str + ")"
 
-work_book.save("formurae.xlsx")
+# work_book.save("formurae.xlsx")
+
+for row in cake_sales_sheet["C2:D" + max_row_str]:
+    for cell in row:
+        cell.number_format = "$#,##0.00"
