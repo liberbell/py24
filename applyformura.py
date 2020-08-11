@@ -46,3 +46,6 @@ for row in data:
     cake_sales_sheet.append(row)
 
 # work_book.save("formurae.xlsx")
+
+max_row_str = str(cake_sales_sheet.max_row)
+print(max_row_str)
