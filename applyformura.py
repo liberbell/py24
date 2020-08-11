@@ -57,3 +57,5 @@ for row in cake_sales_sheet["D2:D" + max_row_str]:
 total_row_str = str(cake_sales_sheet.max_row + 2)
 cake_sales_sheet["C" + total_row_str] = "Total Sales:"
 cake_sales_sheet["D" + total_row_str] = "=SUM(D2:D" + max_row_str + ")"
+
+work_book.save("formurae.xlsx")
