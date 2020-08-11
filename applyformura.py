@@ -49,3 +49,7 @@ for row in data:
 
 max_row_str = str(cake_sales_sheet.max_row)
 print(max_row_str)
+
+for row in cake_sales_sheet["D2:D" + max_row_str]:
+    for cell in row:
+        cell.value = "=$B${0}*$C${0}".format(cell.row)
