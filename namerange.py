@@ -34,3 +34,5 @@ for row in sheet["E3:E" + max_row_str]:
         cell.number_format = "#,##0,00"
 
 # work_book.save("named_range.xlsx")
+
+work_book.create_named_range("products", sheet, "$A$3:$B$" + max_row_str)
