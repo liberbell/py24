@@ -17,3 +17,7 @@ print(cells)
 
 max_row_str = str(sheet.max_row)
 print(max_row_str)
+
+for row in sheet["C3:C" + max_row_str]:
+    for cell in row:
+        cell.value = "=$B${0}*VLOOKUP($C$2, fx_rates, 2, False)".format(cell.row)
