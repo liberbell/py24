@@ -27,3 +27,8 @@ for row in sheet["D3:D" + max_row_str]:
     for cell in row:
         cell.value = "=$B${0}*VLOOKUP($D$2, fx_rates, 2, False)".format(cell.row)
         cell.number_format = "#,##0,00"
+
+for row in sheet["E3:E" + max_row_str]:
+    for cell in row:
+        cell.value = "=$B${0}*VLOOKUP($E$2, fx_rates, 2, False)".format(cell.row)
+        cell.number_format = "#,##0,00"
