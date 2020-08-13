@@ -33,4 +33,4 @@ for row in sheet["E3:E" + max_row_str]:
         cell.value = "=$B${0}*VLOOKUP($E$2, fx_rates, 2, False)".format(cell.row)
         cell.number_format = "#,##0,00"
 
-work_book.save("named_range.xlsx")
+# work_book.save("named_range.xlsx")
