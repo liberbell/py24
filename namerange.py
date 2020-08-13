@@ -14,3 +14,6 @@ for title, coord in fx_range.destinations:
     cells.append(ws[coord])
 
 print(cells)
+
+max_row_str = str(sheet.max_row)
+print(max_row_str)
