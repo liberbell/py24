@@ -12,3 +12,5 @@ cells = []
 for title, coord in fx_range.destinations:
     ws = work_book[title]
     cells.append(ws[coord])
+
+print(cells)
