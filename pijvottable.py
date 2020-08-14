@@ -12,3 +12,5 @@ table = pd.pivot_table(sales_df,
                        values=["Units Sold", "Total Revenue", "Total Profit"],
                        aggfunc=[np.sum])
 print(table.head(10))
+
+table.loc["Asia", : ]
