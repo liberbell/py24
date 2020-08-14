@@ -17,3 +17,6 @@ print(table.loc["Asia", : ])
 print(table.loc[("Asia", "Myanmar"), : ])
 
 print(table.index.get_level_values(0))
+
+unique_region = table.index.get_level_values(0).unique()
+print(unique_region)
