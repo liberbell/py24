@@ -15,3 +15,5 @@ print(table.head(10))
 
 print(table.loc["Asia", : ])
 print(table.loc[("Asia", "Myanmar"), : ])
+
+print(table.index.get_level_values(0))
