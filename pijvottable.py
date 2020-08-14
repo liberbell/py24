@@ -9,5 +9,5 @@ print(sales_df.sort_values(by = ["Region", "Country", "Item Type"]).tail(10))
 
 table = pd.pivot_table(sales_df,
                        index=["Region", "Country"],
-                       values=["Units_Sold", "Total_Revenue", "Total_Profit"],
+                       values=["Units Sold", "Total Revenue", "Total Profit"],
                        aggfunc=[np.sum])
