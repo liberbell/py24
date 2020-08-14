@@ -14,3 +14,4 @@ table = pd.pivot_table(sales_df,
 print(table.head(10))
 
 print(table.loc["Asia", : ])
+print(table.loc[("Asia", "Myanmar"), : ])
