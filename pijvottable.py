@@ -13,4 +13,4 @@ table = pd.pivot_table(sales_df,
                        aggfunc=[np.sum])
 print(table.head(10))
 
-table.loc["Asia", : ]
+print(table.loc["Asia", : ])
