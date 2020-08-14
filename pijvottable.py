@@ -20,3 +20,6 @@ print(table.index.get_level_values(0))
 
 unique_region = table.index.get_level_values(0).unique()
 print(unique_region)
+
+for region in unique_region:
+    print(table.loc[(region), : ])
