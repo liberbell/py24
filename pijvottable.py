@@ -23,3 +23,10 @@ print(unique_region)
 
 for region in unique_region:
     print(table.loc[(region), : ])
+
+writer = pd.ExcelWriter("sales_pivot_tables.xlsx")
+for region in unique_region:
+    temp_df = table.loc[ (region), : ]
+    temp_df.to_excel(writer, region)
+
+writer.save()
